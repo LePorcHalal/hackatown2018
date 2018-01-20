@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Hackatown</string>
+    <string-array name="type_sport">
+        <item>Hockey</item>
+        <item>BasketBall</item>
+        <item>Volley-ball</item>
+        <item>Football</item>
+        <item>Tenis</item>
+        <item>Badnimton</item>
+        <item>Soccer</item>
+
+
+    </string-array>
 </resources>

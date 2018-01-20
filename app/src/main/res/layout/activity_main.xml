@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.hugo.hackatown.MainActivity">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout_editor_absoluteX="143dp"
@@ -42,7 +42,7 @@
             tools:layout_editor_absoluteX="193dp"
             tools:layout_editor_absoluteY="232dp" />
 
-    </RelativeLayout>
+
 
     <TextView
         android:id="@+id/txt"
@@ -60,5 +60,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.14" />
 
+</RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
